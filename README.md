@@ -18,6 +18,13 @@ $ npm install -g phantomjs
 $ npm install karma-jasmine –save-dev
 $ npm install karma-phantomjs-launcher –save-dev
 
+
+
+
+* Install Bower
+
+$ npm install -g bower bower requires Node and npm and Git.
+
 Configure Karma for the project:
 
 Now that the project is setup, lets configure Karma to work with it. Karma requires a configuration file in order to run, but fortunately includes an automatic initialization process that will create one for you:
