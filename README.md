@@ -13,10 +13,13 @@ As with most things lately, you’ll want to make sure you have node.js and npm 
 
 From a command-line, you want to install Karma and PhantomJS using npm:
 
-$ npm install -g karma-cli
+$ npm install -g karma-cli (setup goloabal)
+$ npm install  karma (setup local)
 $ npm install -g phantomjs
-$ npm install karma-jasmine –save-dev
-$ npm install karma-phantomjs-launcher –save-dev
+$ npm install karma-jasmine –save-dev (setup local)
+$ npm install karma-phantomjs-launcher –save-dev (setup local)
+
++ Note: Webstorm Reference jasmine lib
 
 
 
